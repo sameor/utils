@@ -12,7 +12,7 @@ type Stack struct {
 	list *list.List
 }
 
-func New() *Stack {
+func NewStack() *Stack {
 	return &Stack{list.New()}
 }
 
